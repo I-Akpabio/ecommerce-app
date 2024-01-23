@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Footer } from "./components/footer";
 import { Nav } from "./components/Nav";
+import Link from "next/link";
 
 const Star = () => (
   <svg
@@ -50,8 +51,8 @@ export default function Home() {
               of style.
             </h1>
 
-            <button className="hero-button main">Shop Now</button>
-
+            <Link href="/category"><button className="hero-button main">Shop Now</button>
+            </Link>
             <div
               className="flex flex-wrap mt-3 mb-6 lg:mb-28"
             >

@@ -70,7 +70,6 @@ export default function Category() {
       });
   }, []);
 
-
   return (
     <>
       <Nav />
